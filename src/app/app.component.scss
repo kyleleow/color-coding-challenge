@@ -1,0 +1,16 @@
+.page-holder {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.tile-holder {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: flex-end;
+
+    &:last-child {
+        align-items: flex-start;
+    }
+}

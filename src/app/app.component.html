@@ -1,0 +1,26 @@
+<div class="page-holder">
+  <div class="tile-holder">
+    <app-tile 
+      [tileIndex]='0'
+      [color]="colorArray[0].color"
+      (tileClick)=onTileClick($event)>
+    </app-tile>
+    <app-tile 
+      [tileIndex]='1'
+      [color]="colorArray[1].color"
+      (tileClick)=onTileClick($event)>
+    </app-tile>
+  </div>
+  <div class="tile-holder">
+    <app-tile 
+      [tileIndex]='2'
+      [color]="colorArray[2].color"
+      (tileClick)=onTileClick($event)>
+    </app-tile>
+    <app-tile 
+      [tileIndex]='3'
+      [color]="colorArray[3].color"
+      (tileClick)=onTileClick($event)>
+    </app-tile>
+  </div>
+</div>
